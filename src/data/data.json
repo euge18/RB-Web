@@ -96,38 +96,6 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
   "Team": [
     {
       "img": "img/team/team-people.svg",
@@ -150,6 +118,40 @@
       "job": "Administración - Gestor"
     }
   ],
+  "Clients": {
+    "List": [
+      "Dar un servicio rápido y eficiente, orientado a resultados.",
+      "Asegurar compromiso y responsabilidad en cada tarea.",
+      "Brindar atención personalizada y soluciones a medida."
+    ],
+    "Costumers": [
+      {
+        "img": "img/testimonials/01.jpg",
+        "text": "Empresa de limpieza y seguridad",
+        "name": "ABACCINO"
+      },
+      {
+        "img": "img/testimonials/02.jpg",
+        "text": "Pollería y minimarket",
+        "name": "LAS TRES M"
+      },
+      {
+        "img": "img/testimonials/03.jpg",
+        "text": "Ferretería y barraca",
+        "name": "JOCOEX"
+      },
+      {
+        "img": "img/testimonials/06.jpg",
+        "text": "Residencial",
+        "name": "SIEMPRE JUNTOS"
+      },
+      {
+        "img": "img/testimonials/04.jpg",
+        "text": "Otros",
+        "name": "STEVENS COLLINS Y JUAN ALTEZ"
+      }
+    ]
+  },
   "Contact": {
     "phone": "094 101 856 / 091 528 930",
     "email": "Estudiocontablerybasociados@gmail.com",
