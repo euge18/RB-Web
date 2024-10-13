@@ -1,40 +1,25 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
   name: "",
-  email: "",
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [state, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
-  
-  
+
+  const clearState = () => setState(initialState);
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    window.location.href = `mailto:Estudiocontablerybasociados@gmail.com?subject=Consulta web: ${state.name}&body=${state.message}`;
   };
+
   return (
     <div>
       <div id="contact">
@@ -42,10 +27,11 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Contáctenos</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Por favor, rellene el siguiente formulario para enviarnos un
+                  correo electrónico y nos pondremos en contacto con usted lo
+                  antes posible.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -57,23 +43,10 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nombre"
                         required
                         onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
+                        value={state.name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -85,33 +58,38 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     required
+                    value={state.message}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Enviar mensaje
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-custom btn-lg"
+                  style={{ marginLeft: "16px" }}
+                  onClick={() => {
+                    clearState();
+                  }}
+                >
+                  Limpiar
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
+              <h3 style={{ fontWeight: "600" }}>Información de contacto</h3>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i>Teléfono
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -130,18 +108,13 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,10 +126,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; {new Date().getFullYear()} Estudio contable y gestoria
+            integral R&B Asociados. Web por EF paginas webs.
           </p>
         </div>
       </div>

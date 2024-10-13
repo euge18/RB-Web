@@ -1,21 +1,20 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Expertos en números, aliados en tu crecimiento",
+    "paragraph": "En R&B Asociados, ofrecemos soluciones contables y financieras personalizadas, trámites y asesoramiento para ayudarte a crecer con seguridad y confianza. Nuestra experiencia y compromiso están al servicio de tu negocio, simplificando procesos y optimizando resultados."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph1": "R&B Asociados es un estudio contable que ha lanzado al mercado una propuesta integral de gestoría y asesoramiento especializado. Con un equipo de profesionales comprometidos y altamente capacitados en la gestión de trámites y en asesoría contable. Nuestro objetivo es simplificar los procesos administrativos y financieros para que nuestros clientes puedan enfocarse en el crecimiento de sus negocios. Ya sea que necesiten asistencia con trámites, declaraciones fiscales o asesoramiento contable estratégico, estamos aquí para brindarles un servicio personalizado y acorde a sus necesidades.",
+    "paragraph2": "En R&B Asociados, entendemos la importancia de la confianza y la transparencia en cada paso del proceso. Nos destacamos por nuestra dedicación y por acompañar a cada cliente en la gestión eficiente de sus trámites y obligaciones contables, siempre con un enfoque claro en el cumplimiento y la optimización de resultados.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Servicio rápido y eficiente, orientado a resultados.",
+      "Compromiso y responsabilidad en cada tarea.",
+      "Atención personalizada y soluciones a medida."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Transparencia y confianza en cada proceso.",
+      "Soporte continuo, acompañándote en cada paso.",
+      "Equipo profesional y capacitado a tu disposición."
     ]
   },
   "Gallery": [
@@ -67,118 +66,198 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-car",
+      "name": "Automotores",
+      "text": [
+        "Compraventa de automotores.",
+        "Prendas.",
+        "Cancelación de Prendas.",
+        "Permutas.",
+        "Leasing.",
+        "Cancelación de Leasing.",
+        "Promesas de compraventa.",
+        "Cesiones de promesas.",
+        "Cartas poderes de automotores."
+      ]
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-calculator",
+      "name": "Contable",
+      "text": [
+        "Registro de asientos.",
+        "Emisión de estados de resultado.",
+        "Balances.",
+        "Certificado de crédito.",
+        "Presentación de declaraciones juradas.",
+        "Prestaciones de ITP.",
+        "Declaraciones de LASS e IRPF."
+      ]
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-group",
+      "name": "Personas",
+      "text": [
+        "Capitulaciones matrimoniales.",
+        "Separación judicial de bienes.",
+        "Particiones.",
+        "Testamentos y sucesiones.",
+        "Cesión de derechos hereditarios y repudiación de herencias.",
+        "Rectificación de partidas.",
+        "Legalización de documentos para el extranjero.",
+        "Testimonios por exhibición de documentos.",
+        "Poderes para pleitos.",
+        "Poderes para Organismos Públicos y/o Privados."
+      ]
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Inmuebles",
+      "text": [
+        "Compraventa de inmuebles urbanos y rurales.",
+        "Compraventa de Nuda propiedad.",
+        "Promesas de Compraventa.",
+        "Cesiones de promesas.",
+        "Reglamentos de copropiedad.",
+        "Hipotecas y cancelaciones de hipotecas ante BHU, ANV.",
+        "Novaciones.",
+        "Donaciones.",
+        "Arrendamientos.",
+        "Renta vitalicia.",
+        "Comodatos.",
+        "Usufructos.",
+        "Pago por entrega de bienes.",
+        "Poderes generales de administración y disposición.",
+        "Trámite ante solicitud de préstamos hipotecarios para compra de inmuebles."
+      ]
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Administración de empresas y RRHH",
+      "text": [
+        "Apertura, modificación o clausuras de empresas.",
+        "Unipersonales, SA, SRL, LTDA y SAS.",
+        "Declaraciones juradas de IRPF, FONASA, IASS e IVA.",
+        "Mantenimiento mensual de empresas.",
+        "Autorización de imprenta para imprimir facturas.",
+        "Solicitud de POS para operar con débito y crédito.",
+        "Liquidación de haberes de la construcción.",
+        "Realización de nómina, aportes y gestión, facturas Focer.",
+        "Solicitud de certificado común y especial.",
+        "Subsidio por desempleo.",
+        "Subsidio por maternidad y paternidad.",
+        "Certificados médicos.",
+        "Emisión de nóminas mensuales.",
+        "Generación de facturas.",
+        "Ingreso DJ no pago."
+      ]
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "icon": "fa fa-plus",
+      "name": "Otros",
+      "text": [
+        "Ministerio de Transporte y Obras Públicas.",
+        "Expedición de partidas en todo el Uruguay.",
+        "Apostillado.",
+        "Legalizaciones.",
+        "Instituto de Colonización.",
+        "Ministro de Industria y Energía (patente de marcas).",
+        "Intendencias Montevideo y Canelones.",
+        "Habilitación Comercial.",
+        "Habilitación Bromatológica.",
+        "CUD.",
+        "Libre de gravámenes.",
+        "DINAMIGE.",
+        "DIGEFE.",
+        "SIME.",
+        "Espacios públicos y cartelería.",
+        "Convenios.",
+        "Tránsito.",
+        "Catastro."
+      ]
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/team-people.svg",
+      "name": "Claudia Rodao",
+      "job": "Licenciada en RRHH"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/team-people.svg",
+      "name": "Verónica Bollini",
+      "job": "Auxiliar Técnico Contable"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/team-people.svg",
+      "name": "Florencia Caballero",
+      "job": "Administración - RRPP"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/team-people.svg",
+      "name": "Bruno Terevinto",
+      "job": "Administración - Gestor"
     }
   ],
+  "Clients": {
+    "List": [
+      "Dar un servicio rápido y eficiente, orientado a resultados.",
+      "Asegurar compromiso y responsabilidad en cada tarea.",
+      "Brindar atención personalizada y soluciones a medida."
+    ],
+    "Costumers": [
+      {
+        "img": "img/testimonials/01.jpg",
+        "text": "Empresa de limpieza y seguridad",
+        "name": "ABACCINO"
+      },
+      {
+        "img": "img/testimonials/02.jpg",
+        "text": "Pollería y minimarket",
+        "name": "LAS TRES M"
+      },
+      {
+        "img": "img/testimonials/03.jpg",
+        "text": "Ferretería y barraca",
+        "name": "JOCOEX"
+      },
+      {
+        "img": "img/testimonials/06.jpg",
+        "text": "Residencial",
+        "name": "SIEMPRE JUNTOS"
+      },
+      {
+        "img": "img/testimonials/04.jpg",
+        "text": "Otros",
+        "name": "STEVENS COLLINS Y JUAN ALTEZ"
+      }
+    ]
+  },
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "phone": "094 101 856 / 091 528 930",
+    "email": "Estudiocontablerybasociados@gmail.com",
+    "instagram": "https://www.instagram.com/estudiorybasociados?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "whatsapp": "https://wa.me/59894101856"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-folder-open",
+      "title": "Permisos y convenios",
+      "text": "Gestión de permisos y convenios necesarios para el funcionamiento y desarrollo de tu negocio."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-briefcase",
+      "title": "BPS y DGI",
+      "text": "Asesoría y tramitación de obligaciones ante BPS y DGI, asegurando el cumplimiento de normativas fiscales y laborales."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-bank",
+      "title": "Ministerios e Intendencias",
+      "text": "Trámites ante ministerios e intendencias para obtener habilitaciones y licencias que garanticen la legalidad de tu actividad."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-file",
+      "title": "Reg. de propiedades inmuebles y automotor",
+      "text": "Registro y gestión de propiedades inmuebles y automotores, facilitando la compraventa y el cumplimiento de obligaciones legales."
     }
   ]
 }

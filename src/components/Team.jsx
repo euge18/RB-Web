@@ -5,10 +5,13 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
+          <h2>Conozca a nuestros equipo</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            En R&B asociados, nuestro equipo está formado por profesionales
+            apasionados y dedicados que combinan experiencia y conocimiento en
+            el ámbito contable y financiero. Cada miembro de nuestro equipo
+            aporta una perspectiva única y un conjunto de habilidades que nos
+            permite ofrecer soluciones personalizadas a nuestros clientes.
           </p>
         </div>
         <div id="row">
