@@ -20,7 +20,11 @@ export const Services = (props) => {
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+                    <ul>
+                      {d.text
+                        ? d.text.map((d, i) => <li key={`${d}-${i}`}>{d}</li>)
+                        : "loading"}
+                    </ul>
                   </div>
                 </div>
               ))

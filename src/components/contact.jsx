@@ -84,7 +84,7 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Información de contacto</h3>
+              <h3 style={{ fontWeight: "600" }}>Información de contacto</h3>
             </div>
             <div className="contact-item">
               <p>

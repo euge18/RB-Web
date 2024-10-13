@@ -390,6 +390,11 @@ header .intro-text {
 #services p {
   color: #fff;
 }
+#services ul {
+  text-align: start;
+  margin-left: 5px;
+  list-style: inherit;
+}
 #services .service-desc {
   margin-bottom: 40px;
 }

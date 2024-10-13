@@ -6,6 +6,14 @@ export const Features = (props) => {
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Trámites</h2>
+          <p>
+            Si no encuentras el servicio específico que necesitas en nuestra
+            lista, no dudes en contactarnos. En R&B Asociados, estamos
+            comprometidos en ofrecer soluciones personalizadas y flexibles para
+            cubrir todas tus necesidades contables y de gestoría. Nos adaptamos
+            a cada situación para brindarte el apoyo que requieras. ¡Estamos
+            aquí para ayudarte!
+          </p>
         </div>
         <div className="row">
           {props.data
