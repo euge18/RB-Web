@@ -234,19 +234,20 @@ a:focus,
 .intro p {
   color: #fff;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 350;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: transparent;
+  padding: 100px 0;
 }
 #features i.fa {
   font-size: 38px;
@@ -285,6 +286,7 @@ header .intro-text {
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
+  font-size: 16px;
   list-style: none;
   padding: 0;
 }
@@ -292,13 +294,13 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 300;
   padding-right: 8px;
 }
 #about img {
   width: 520px;
-  margin-top: 10px;
+  margin-top: 36px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
