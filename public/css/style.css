@@ -81,11 +81,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #333;
-  text-transform: uppercase;
+  padding: 0px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -115,6 +111,17 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
+}
+#menu .logo-conteiner {
+  flex-direction: row;
+}
+#menu .logo-img {
+  width: 125px;
+  margin-left: 10px;
+}
+#menu .logo-cara-img {
+  width: 45px;
+  margin-bottom: 10px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
